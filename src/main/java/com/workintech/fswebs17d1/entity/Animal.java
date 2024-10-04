@@ -1,8 +1,11 @@
 package com.workintech.fswebs17d1.entity;
 
+import jakarta.annotation.PostConstruct;
+
 public class Animal {
     private Integer id;
     private String name;
+
 
     public Animal(Integer id, String name) {
         this.id = id;
